@@ -1,0 +1,21 @@
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+/* Cores */
+.bg-e5e5e5 {
+  background: #E5E5E5;
+}
+.bg-458FF6 {
+  background: #458FF6;
+}
+.bg-FFFFFF {
+  background: #FFFFFF;
+}
+.bg-element {
+  background-image: url(../assets/bg-element.svg);
+}
+.bg-linear {
+  background: linear-gradient(#67C3F3, #5A98F2);
+}
