@@ -1,0 +1,12 @@
+.item-service {
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+  box-shadow: 0 0 4px #c0c0c0;
+}
+.background {
+  position: relative;
+}
+.bg-ellement {
+  position: absolute;
+  z-index: -1;
+}

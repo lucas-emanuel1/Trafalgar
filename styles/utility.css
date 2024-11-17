@@ -57,6 +57,9 @@
 .text-h2 {
   font: bold 36px/56px "Mulish";
 }
+.text-h3 {
+  font: bold 24px/56px "Mulish";
+}
 .text-paragraphy-main {
   font: 300 21px/32px "Mulish";
 }
@@ -70,7 +73,7 @@
   font: bold 18px/60px "Mulish";
 }
 
-/* Flex */
+/* Flex and Grid */
 .flex {
   display: flex;
 }
@@ -79,6 +82,9 @@
 }
 .gap-24 {
   gap: 24px;
+}
+.gap-36 {
+  gap: 36px;
 }
 .gap-40 {
   gap: 40px;
@@ -89,11 +95,32 @@
 .align-items-center {
   align-items: center;
 }
+.grid {
+  display: grid;
+}
+.grid-template-col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
 
-/* Spacing */
+/* Others */
 .margin-b {
   margin-block: 120px;
 }
+.margin-b-light {
+  margin-bottom: 60px;
+}
 .fit-content {
   width: fit-content;
+}
+.text-align-center {
+  text-align: center;
+}
+.margin-inline-center {
+  margin-inline: center;
+}
+.card-item {
+  background: #FFFFFF;
+  padding: 46px 38px;
+  border-radius: 20px;
+  cursor: pointer;
 }
