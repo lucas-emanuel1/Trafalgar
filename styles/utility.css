@@ -4,6 +4,21 @@
 }
 
 /* Cores */
+.text-7D7987 {
+  color: #7D7987;
+}
+.text-1F1534 {
+  color: #1F1534;
+}
+.text-458FF6 {
+  color: #458FF6;
+}
+.text-FFFFFF {
+  color: #FFFFFF;
+}
+.text-000000 {
+  color: #000000;
+}
 .bg-e5e5e5 {
   background: #E5E5E5;
 }
@@ -18,4 +33,44 @@
 }
 .bg-linear {
   background: linear-gradient(#67C3F3, #5A98F2);
+}
+
+/* Btn */
+.btn-primary {
+  background: #458FF6;
+  border-radius: 55px;
+  padding: 0 40px;
+  color: #FFFFFF;
+}
+.btn-secondary {
+  border: 1px solid #458FF6;
+  border-radius: 55px;
+  background: transparent;
+  padding: 0 40px;
+  color: #458FF6;
+}
+
+/* Fonts */
+.text-h1 {
+  font: bold 48px/56px "Mulish";
+}
+.text-h2 {
+  font: bold 36px/56px "Mulish";
+}
+.text-paragraphy-n1 {
+  font: 300 16px/28px "Mulish";
+}
+.text-paragraphy-n2 {
+  font: 300 18px/30px "Mulish";
+}
+.text-btn {
+  font: bold 18px/60px "Mulish";
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+.gap {
+  gap: 40px;
 }
