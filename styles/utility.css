@@ -57,6 +57,9 @@
 .text-h2 {
   font: bold 36px/56px "Mulish";
 }
+.text-paragraphy-main {
+  font: 300 21px/32px "Mulish";
+}
 .text-paragraphy-n1 {
   font: 300 16px/28px "Mulish";
 }
@@ -71,6 +74,12 @@
 .flex {
   display: flex;
 }
+.flex-flow-col {
+  flex-direction: column;
+}
+.gap-24 {
+  gap: 24px;
+}
 .gap-40 {
   gap: 40px;
 }
@@ -84,4 +93,7 @@
 /* Spacing */
 .margin-b {
   margin-block: 120px;
+}
+.fit-content {
+  width: fit-content;
 }
