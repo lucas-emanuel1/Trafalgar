@@ -71,6 +71,17 @@
 .flex {
   display: flex;
 }
-.gap {
+.gap-40 {
   gap: 40px;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+
+/* Spacing */
+.margin-b {
+  margin-block: 120px;
 }
