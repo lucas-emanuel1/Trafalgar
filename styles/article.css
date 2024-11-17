@@ -1,0 +1,22 @@
+article {
+  border-radius: 24px;
+  padding-block: 64px;
+}
+.article-container div:nth-child(2) p {
+  max-width: 40ch;
+}
+
+.arrow-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 336px;
+  margin-block: 42px;
+}
+.arrow-nav span:nth-child(2) {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.arrow-nav svg {
+  cursor: pointer;
+}

@@ -60,6 +60,9 @@
 .text-h3 {
   font: bold 24px/56px "Mulish";
 }
+.text-h4 {
+  font: bold 22px/48px "Mulish";
+}
 .text-paragraphy-main {
   font: 300 21px/32px "Mulish";
 }
@@ -80,6 +83,9 @@
 .flex-flow-col {
   flex-direction: column;
 }
+.gap-14 {
+  gap: 14px;
+}
 .gap-24 {
   gap: 24px;
 }
@@ -92,11 +98,20 @@
 .justify-content-between {
   justify-content: space-between;
 }
+.justify-content-center {
+  justify-content: center;
+}
 .align-items-center {
   align-items: center;
 }
+.justify-content-end {
+  justify-content: end;
+}
 .grid {
   display: grid;
+}
+.grid-template-col-2 {
+  grid-template-columns: repeat(2, 1fr);
 }
 .grid-template-col-3 {
   grid-template-columns: repeat(3, 1fr);
